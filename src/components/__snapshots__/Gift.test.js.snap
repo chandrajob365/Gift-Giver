@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GIFT renders properly 1`] = `
+"<div>
+  <Form inline={false}>
+    <FormGroup controlId=\\"person\\" bsSize=\\"large\\">
+      <FormLabel column={false} srOnly={false}>
+        Person
+      </FormLabel>
+      <FormControl type=\\"input\\" className=\\"input-person\\" value=\\"\\" onChange={[Function: onChange]} />
+    </FormGroup>
+    <FormGroup controlId=\\"present\\" bsSize=\\"large\\">
+      <FormLabel column={false} srOnly={false}>
+        Present
+      </FormLabel>
+      <FormControl type=\\"input\\" className=\\"input-present\\" value=\\"\\" onChange={[Function: onChange]} />
+    </FormGroup>
+  </Form>
+  <Button className=\\"btn-remove\\" onClick={[Function: onClick]} variant=\\"primary\\" active={false} disabled={false} type=\\"button\\">
+    Remove Gift
+  </Button>
+</div>"
+`;
